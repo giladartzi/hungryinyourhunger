@@ -4,13 +4,18 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "mocha --require babel-register src/tests/**/*.test.js"
   },
   "dependencies": {
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
     "react": "15.3.2",
     "react-native": "0.35.0",
     "react-redux": "^4.4.5",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.0",
+    "redux-thunk": "^2.1.0"
   },
   "jest": {
     "preset": "jest-react-native"

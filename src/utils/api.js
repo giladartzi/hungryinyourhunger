@@ -15,7 +15,8 @@ const MOCK = {
             openingHours: 'א׳-ה׳: 11:00-17:00, ו׳: 9:00-14:00',
             isVegetariansOptions: true,
             isVeganFriendly: false,
-            isKosher: true
+            isKosher: true,
+            itemBackgroundURI: 'https://wallpaperscraft.com/image/dark_background_line_surface_65896_602x339.jpg'
         }, {
             id: 1,
             name: 'פושון',
@@ -31,7 +32,8 @@ const MOCK = {
             openingHours: 'א׳-ש׳: 8:00-0:00',
             isVegetariansOptions: true,
             isVeganFriendly: true,
-            isKosher: false
+            isKosher: false,
+            itemBackgroundURI: 'https://wallpaperscraft.com/image/dark_background_line_surface_65896_602x339.jpg'
         }
     ]
 };

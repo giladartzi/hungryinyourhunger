@@ -1,7 +1,7 @@
 export const GET_BUSINESS_ENTITIES_REQUEST = 'GET_BUSINESS_ENTITIES_REQUEST';
 export const GET_BUSINESS_ENTITIES_SUCCESS = 'GET_BUSINESS_ENTITIES_SUCCESS';
 export const GET_BUSINESS_ENTITIES_FAILURE = 'GET_BUSINESS_ENTITIES_FAILURE';
-import request from '../utils/api.js'
+import request from '../utils/api.js';
 
 export const getBusinessEntities = dispatch => {
     dispatch({

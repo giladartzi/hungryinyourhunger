@@ -10,7 +10,7 @@ const MOCK = {
     }]
 };
 
-export function request(path) {
+export default function request(path) {
     if (MOCK[path]) {
         return new Promise(resolve => resolve(MOCK[path]));
     }

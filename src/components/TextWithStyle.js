@@ -5,16 +5,16 @@ import { connect } from 'react-redux';
 const styles = StyleSheet.create({
     texts: {
         backgroundColor: 'transparent',
-        color: '#fff',
+        color: '#444',
         textAlign: 'right',
     },
 });
 
 class TextWithStyle extends React.Component {
     render() {
-        const customStyle = StyleSheet.create({texts: this.props.style || {}});
+        const customStyle = this.props.style || {};
 
-        return <Text {...this.props} style={[styles.texts, customStyle.texts]} />;
+        return <Text {...this.props} style={[styles.texts, customStyle]} />;
     }
 }
 

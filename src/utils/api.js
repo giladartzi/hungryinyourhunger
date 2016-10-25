@@ -12,8 +12,8 @@ const MOCK = {
             deals: 'סלט נוסף ומרק קטן בקניית ארוחה',
             address: 'הרצל 86, ר״ג',
             phone: '03-6725860',
-            openingHours: 'א׳-ה׳: 11:00-17:00, ו׳: 9:00-14:00',
-            isVegetariansOptions: true,
+            openingHours: 'א׳-ה׳: 11:00-17:00\nו׳: 9:00-14:00',
+            isVegetarianOptions: true,
             isVeganFriendly: false,
             isKosher: true,
             itemBackgroundURI: 'https://wallpaperscraft.com/image/dark_background_line_surface_65896_602x339.jpg'
@@ -30,7 +30,7 @@ const MOCK = {
             address: 'שרונה מרקט, ת״א',
             phone: '03-7501555',
             openingHours: 'א׳-ש׳: 8:00-0:00',
-            isVegetariansOptions: true,
+            isVegetarianOptions: true,
             isVeganFriendly: true,
             isKosher: false,
             itemBackgroundURI: 'https://wallpaperscraft.com/image/dark_background_line_surface_65896_602x339.jpg'
